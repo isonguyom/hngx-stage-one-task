@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 100%;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    text-align: center;
+    padding: 30px 7%;
+  }
+
+  .slack-name {
+    margin-bottom: 20px;
+  }
+
+  .profile-picture {
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .track {
+    margin-bottom: 10px;
+  }
+  
