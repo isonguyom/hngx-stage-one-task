@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Stage One Task</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <main>
-<h1 class="slack-name" data-testid="slackUserName">IsonguyoM</h1>
-<img class="profile-picture" src="./images/isonguyo.jpg" alt="IsonguyoM" data-testid="slackDisplayImage">
-<div class="day-of-week" data-testid="currentDayOfTheWeek">
-
-</div>
-<div class="utc-time" data-testid="currentUTCTime"></div>
-<h4 class="track" data-testid="myTrack">Frontend</h4>
-<a href="https://github.com/isonguyom/hngx-stage-one-task" data-testid=“githubURL”> GitHub repository</a>
+      <h1 class="slack-name" data-testid="slackUserName">IsonguyoM</h1>
+      <img
+        class="profile-picture"
+        src="./images/isonguyo.jpg"
+        alt="IsonguyoM"
+        data-testid="slackDisplayImage"
+      />
+      <div class="container">
+        <p>
+          <b>Current Day of the Week:</b>
+          <span class="day-of-week" data-testid="currentDayOfTheWeek"> </span>
+        </p>
+        <p>
+          <b>Current UTC Time:</b>
+          <span class="utc-time" data-testid="currentUTCTime"></span>ms
+        </p>
+        <p>
+          <b>Track:</b>
+          <span class="track" data-testid="myTrack">Frontend</span>
+        </p>
+      </div>
+      <a
+        class="github-repo"
+        href="https://github.com/isonguyom/hngx-stage-one-task"
+        data-testid="“githubURL”"
+      >
+        GitHub repository</a
+      >
     </main>
-    
-
 
     <script src="./script/script.js"></script>
-</body>
+  </body>
 </html>
