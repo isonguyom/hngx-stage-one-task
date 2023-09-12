@@ -21,6 +21,7 @@ body {
   scroll-behavior: smooth;
   text-align: center;
   padding: 30px 7%;
+  color: #101010;
 }
 
 .slack-name {
