@@ -2,8 +2,11 @@ let dayOfTheWeek = document.querySelector(".day-of-week")
 let currentUtcTime = document.querySelector(".utc-time")
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-const d = new Date();
-let day = days[d.getDay()];
+const dayD = new Date();
+let day = days[dayD.getDay()];
+
+const utcD = new Date();
+let utcMs = utcD.getUTCMilliseconds();
 
 dayOfTheWeek.innerHTML = day
-currentUtcTime.innerHTML = new Date().getUTCMilliseconds
+currentUtcTime.innerHTML = utcMs
